@@ -1,5 +1,7 @@
 # 4) Print week number if you provide week-name as input.
 
+# this program is for if- elif- else statement
+
 # Taken day number from user
 weekday = str(input("Enter weekday day number (1-7) : "))
 
