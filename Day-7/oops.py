@@ -93,16 +93,80 @@
 
 #Example 7:-  Constructor example
 
-class Myclass:
-    def __init__(self):
-        print("this is constructor")
-    def m1(self):
-        print("hello")
+# class Myclass:
+#     def __init__(self):
+#         print("this is constructor")
+#     def m1(self):
+#         print("hello")
+#
+# Myclass()  #invoke the constructor automatically
+#
+# mc =Myclass()
+# mc.m1()
 
-Myclass()  #invoke the constructor automatically
+# Example:-8
 
-mc =Myclass()
-mc.m1()
+# class Myclass:
+#     name="john"
+#     def __init__(self,name): # constructor expecting  one argument
+#         print(name)
+#         print(self.name)
+#
+# Myclass("akash")  # passing parameter to the constructor
+
+# Example:-9
+
+# Reg:- EMP
+# Constuctor : eid, name , sal
+# display : print eid.ename & sal
+
+# class Emp:
+#
+#     def __init__(self,eid,name,sal):
+#         self.eid=eid
+#         self.name=name
+#         self.sal=sal
+#
+#     def display(self):
+#         print(self.eid,self.name,self.sal)
+#
+#
+# e1=Emp(101,"john",23999)
+# e1.display()
+#
+#
+# e2=Emp(102,"johnnt",2399)
+# e2.display()
+#
+#
+# Example:10
+class Emp:
+
+    def __init__(self,eid,name,sal):
+        self.eid=eid
+        self.name=name
+        self.sal=sal
+
+    def __str__(self): # it is the string constuctor will return only the string value
+        return (self.name)
+        # return (Selg.name,self.sal)  invalid
+
+
+e1=Emp(101,"john",23999)
+print(e1)
+
+e2=Emp(102,"johnnt",2399)
+print(e2)
+
+
+
+
+
+
+
+
+
+
 
 
 
