@@ -23,3 +23,5 @@ file.close()
 #over the files
 
 #nsakfna
+
+#aa,smd
