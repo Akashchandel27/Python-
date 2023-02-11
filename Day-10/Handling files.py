@@ -19,9 +19,3 @@ file=open("C:\Desktop\myfile.txt",'a')
 file.write("this is my file statement")
 file.close()
 
-
-#over the files
-
-#nsakfna
-
-#aa,smd
