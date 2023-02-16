@@ -1,4 +1,5 @@
 # Test Case
+#-----------------------------------
 # --------
 # 1) Open web browser(Chrome/ff/IE).
 # 2) Open URL https://admin-demo.nopcommerce.com/login
