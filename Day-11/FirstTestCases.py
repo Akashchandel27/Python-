@@ -2,6 +2,7 @@
 #-----------------------------------
 # --------
 # 1) Open web browser(Chrome/ff/IE).
+
 # 2) Open URL https://admin-demo.nopcommerce.com/login
 # 3) Provide Email(admin@yourstore.com)
 # 4) Provide password(admin).
